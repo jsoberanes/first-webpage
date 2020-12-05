@@ -1,0 +1,110 @@
+/*
+my style.css
+*/
+
+* {
+  overflow-x: hidden;
+}
+
+/* ----- Container Styling ----- */
+
+body {
+  background-color: black;
+}
+
+header {
+  height: auto;
+  background: content-box radial-gradient(#000000, #DC143C);
+}
+
+main {
+  background-color: #000000;
+  margin: 5%;
+  padding: 0 10%;
+}
+
+footer {
+  height: auto;
+  background: content-box radial-gradient(#000000, #DC143C);
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+}
+
+section {
+  padding: 25px;
+  margin: 0 10%;
+}
+
+/* ----- Elements & Text Styling----- */
+
+img {
+  display: block;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: fantasy, Arial, serif;
+  font-size: 70px;
+  color: #708090;
+  padding-top: 40px;
+  margin: 10px;
+
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-family: fantasy, Arial, serif;
+  font-size: 40px;
+  color: #DC143C;
+  text-align: center;
+}
+
+h3, p, a, li {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav a {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+footer h3 {
+  color: #708090;
+  text-align: center;
+}
+
+iframe { 
+  width: 100%;	
+  border-radius: 10px;
+} 
+
+/* ----- Pseudo-classes ----- */
+
+a:link    { color: #D3D3D3; }
+a:visited { color: #A9A9A9; }
+a:hover   { color: #DC143C; }
+a:active  { color: #808080; }
+
+/* ----- Class Styling ----- */
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.border-top {
+  padding-top: 40px;
+  border-top: 2px solid #708090;
+}
