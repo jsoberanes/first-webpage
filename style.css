@@ -2,10 +2,6 @@
 my style.css
 */
 
-* {
-  overflow-x: hidden;
-}
-
 /* ----- Container Styling ----- */
 
 body {
@@ -15,17 +11,19 @@ body {
 header {
   height: auto;
   background: content-box radial-gradient(#000000, #DC143C);
+  overflow-x: hidden;
 }
 
 main {
   background-color: #000000;
-  margin: 5%;
-  padding: 0 10%;
+  margin: auto;
+  max-width: 600px;
 }
 
 footer {
   height: auto;
   background: content-box radial-gradient(#000000, #DC143C);
+  overflow-x: hidden;
 }
 
 nav {
